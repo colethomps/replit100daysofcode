@@ -1,0 +1,73 @@
+/* Style for login container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Style for chat container */
+.chat-container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for chat messages */
+.message {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Style for message input */
+.message-input {
+    margin-top: 20px;
+    display: flex;
+}
+
+.message-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Style for admin controls */
+.admin-controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.admin-button {
+    margin-right: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}

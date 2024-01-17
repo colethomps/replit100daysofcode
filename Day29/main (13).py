@@ -1,0 +1,1 @@
+print("With my", "\033[33m", " new program ","\033[0m", "I can just call red(and) " , "\033[35m", "and", "\033[0m", " that word will appear in the color I set it to.\nWith no ","\033[32m", "weird gaps","\033[0m",".\nEpic.", sep="")

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Community Chat App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="chat-container">
+        <h1>Community Chat</h1>
+        <div class="chat-messages">
+            <!-- Display last five messages here -->
+            <div class="message">
+                <img src="user1.jpg" alt="User1">
+                <span class="username">User1:</span>
+                <span class="message-text">Hello, everyone!</span>
+            </div>
+            <!-- Repeat this structure for the last five messages -->
+        </div>
+        <div class="message-input">
+            <input type="text" placeholder="Type your message here" required>
+            <button>Send</button>
+        </div>
+    </div>
+
+    <div class="admin-controls">
+        <!-- Show admin button and delete buttons only for the admin user -->
+        <button class="admin-button">Admin</button>
+        <!-- Display delete buttons for each message -->
+        <button class="delete-button">Delete</button>
+        <!-- Repeat this structure for each message -->
+    </div>
+
+</body>
+</html>
